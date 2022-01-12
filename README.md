@@ -10,7 +10,7 @@ make install
 Default install to ```/usr/bin```
 
 
-##Usage
+## Usage
 
 ```bash
 telecode my_code_file
@@ -21,5 +21,5 @@ For more custom options:
 telecode --help
 ```
 
-##Licence
+## Licence
 This project is licenced under GPL2.  See included LICENCE file.
