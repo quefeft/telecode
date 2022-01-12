@@ -1,0 +1,13 @@
+Usage: telecode [OPTIONS]... [FILE]...
+
+telecode
+Credit: quefeft
+Description: a simple screensaver program to showcase your favorite code.
+
+Arguments:
+
+	-t <millisec>		Sets time delay to new value in milliseconds.
+	
+	-c <color>		Changes text color to specified color based on the name (specified in all lowercase).  Uses basic ANSI color codes. (Options: black, red, green, yellow, blue, purple, cyan, white.)
+	
+	-h --help		Displays current help and info file.
