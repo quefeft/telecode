@@ -47,7 +47,7 @@ int main(int argc, const char *argv[]){
 	int i;
 	for(i=1; i<argc; i++){
 		if(!strcmp(argv[i], "--help") || !strcmp(argv[i], "-h")){
-			FILE *helpfile = fopen("help.txt", "r");
+			FILE *helpfile = fopen("/usr/share/telecode/help.txt", "r");
 			print_file_chars(helpfile, 0);
 			fclose(helpfile);
 			exit(0);
