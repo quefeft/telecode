@@ -7,13 +7,13 @@ telecode prints out your code one char at a time in a nice terminal green (but y
 ```bash 
 make install
 ```
-Default install to ```/usr/bin```
+Default install to ```/usr/bin/```
 
 
 ## Usage
 
 ```bash
-telecode my_code_file
+telecode path/to/my/code_file
 ```
 
 For more custom options:
