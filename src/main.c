@@ -84,6 +84,7 @@ int main(int argc, const char *argv[]){
 	}
 
 
+	system("clear");
 	printf("\033[0;%dm", color_code);
 	while(1){
 		line_count += print_file_chars(fp, delay);
